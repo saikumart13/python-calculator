@@ -16,13 +16,11 @@ def perform_math():
     else:
         equation = input(str(previous))
 
-
     if equation == 'quit':
         print("Bye")
         run = False
     else:
         equation = re.sub('a-zA-Z', '', equation)
-
         if previous == 0:
             previous = eval(equation)
             print(previous)
