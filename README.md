@@ -15,5 +15,3 @@ Bye
 
 
 Any alphabets given in equation are substitued with nothing.(sub('a-zA-Z', '', equation))
-
-
